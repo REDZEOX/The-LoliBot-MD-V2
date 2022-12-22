@@ -39,7 +39,7 @@
 <a href="https://dash.boxmineworld.com" target="_blank"> <img src="https://img.shields.io/badge/-boxmine-%23E4405F?style=for-the-badge&logo=acidicnodes&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
 
 ------------------
-### ACTIVAR POR TERMUX - GITHUB <a href="https://github.com/GataNina-Li/GataBot-MD"> <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png" height="40px"> </a>
+### ACTIVAR POR TERMUX - GITHUB <a href="https://github.com/elrebelde21/The-LoliBot-MD-V2"> <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png" height="40px"> </a>
 #### ⬇️ AGREGAR CADA COMANDO POR TEXMUX (Opción 1):
 > ❇️ YA PUEDE INSTALAR DIRECTAMENTE DESDE TERMUX USANDO ESTE REPOSITORIO!!
 ```bash
@@ -49,16 +49,16 @@ pkg upgrade
 pkg install nodejs -y
 pkg install ffmpeg -y
 pkg install imagemagick -y
-git clone https://github.com/GataNina-Li/GataBot-MD
-cd GataBot-MD
+git clone https://github.com/elrebelde21/The-LoliBot-MD-V2
+cd The-LoliBot-MD-V2 
 npm install
 npm update
 npm start
 ```
 ------------------
-### ACTIVAR POR TERMUX - ARCHIVOS <a href="https://github.com/GataNina-Li/GataBot-MD"> <img src="https://images.vexels.com/media/users/3/135984/isolated/preview/11c3e3e5d2a2c47fef7926854010d767-icono-de-carpeta-de-archivos.png" height="40px"> </a>
+### ACTIVAR POR TERMUX - ARCHIVOS <a href="https://github.com/elrebelde21/The-LoliBot-MD-V2"> <img src="https://images.vexels.com/media/users/3/135984/isolated/preview/11c3e3e5d2a2c47fef7926854010d767-icono-de-carpeta-de-archivos.png" height="40px"> </a>
 > DESCARGUÉ Y DESCOMPRIMA 
-### [`GataBot-MD ~ Archivos`](https://mega.nz/file/vvxxHYha#-I6Q64hayupW4_mQ86KWXt0qzy7tAg4sUxAaAKmMahk)
+### [`The-LoliBot-MD ~ Archivos`](https://mega.nz/file/vvxxHYha#-I6Q64hayupW4_mQ86KWXt0qzy7tAg4sUxAaAKmMahk)
 [![blog](https://img.shields.io/badge/Termux-GataBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/UcWlyQ8u5HE)
 
