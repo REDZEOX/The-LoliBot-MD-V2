@@ -30,7 +30,7 @@
 <a href="https://www.tiktok.com/@thelolibot_md" target="_blank"> <img src="https://img.shields.io/badge/-TikTok-%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
 
 -----
-> ✅ ESTE REPOSITORIO DE GATABOT ES COMPATIBLE CON:
+> ✅ ESTE REPOSITORIO DE The-LoliBot-MD-V2 ES COMPATIBLE CON:
 * TERMUX
 * BOXMINE
 * REPLIT
