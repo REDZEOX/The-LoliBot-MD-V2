@@ -77,7 +77,7 @@ npm start
 ------------------
 ### ACTIVAR POR TERMUX - ARCHIVOS <a href="https://github.com/elrebelde21/The-LoliBot-MD-V2"> <img src="https://images.vexels.com/media/users/3/135984/isolated/preview/11c3e3e5d2a2c47fef7926854010d767-icono-de-carpeta-de-archivos.png" height="40px"> </a>
 > DESCARGUÉ Y DESCOMPRIMA 
-### [`The-LoliBot-MD ~ Archivos`](https://www.mediafire.com/file/kzpgd6o72ecnnhj/LoliBot.zip/file)
+### [`The-LoliBot-MD ~ Archivos`](https://www.mediafire.com/file/cv64tns6co3272q/Lolibot.zip/file)
 [![blog](https://img.shields.io/badge/Termux-The-LoliBot-MD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/i1xjB4bmYCc)
 
