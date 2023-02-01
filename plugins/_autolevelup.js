@@ -2,6 +2,9 @@ import { canLevelUp, xpRange } from '../lib/levelling.js'
 import { levelup } from '../lib/canvas.js'
 export function before(m, { conn }) {
 //if (!db.data.chats[m.chat].autonivel && m.isGroup) throw 
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+let username = conn.getName(who)
 	
 let user = global.db.data.users[m.sender]
 let chat = global.db.data.chats[m.chat]
@@ -13,9 +16,9 @@ while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
  if (before !== user.level) {
 	  	 
 conn.sendButton(m.chat, ' ' + wm, `┌───⊷ ${lenguajeGB.smsAutoLv1()}
-▢ ${lenguajeGB.smsAutoLv2()} ${before}
-▢ ${lenguajeGB.smsAutoLv3()} ${user.level}
-▢ ${lenguajeGB.smsAutoLv4()} ${user.role}
+ ▢ ${lenguajeGB.smsAutoLv2()} ${before}
+ ▢ ${lenguajeGB.smsAutoLv3()} ${user.level}
+ ▢ ${lenguajeGB.smsAutoLv4()} ${user.role}
 └──────────────
 
 *_${lenguajeGB.smsAutoLv6()}_*`, null, [[lenguajeGB.smsConMenu(), `/menu`]], m)
