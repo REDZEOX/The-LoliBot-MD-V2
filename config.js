@@ -6,26 +6,29 @@ import fs from 'fs'
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js' 
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario ⋅.━━━━ ⊰  
-global.owner = [ ['wa.me/5492266613038'],
-global.owner1 = ['wa.me/5492266466080'], //owner
-global.owner2 =  ['wa.me/447418333329'], //bot 1
-  //['593968585383'], DEJEN ESTO ASÍ POR AHORA POR FAVOR
-global.owner3 =  ['wa.me/5492266573414'], //bot 2
-global.owner4 =  ['wa.me/524531577440'] 
+global.owner = [
+  ['5492266466080', '𝙏𝙝𝙚 𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿', true],
+  ['5492266613038', '𝙏𝙝𝙚 𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿', true],
+  ['56964787183', '𝙏𝙝𝙚 𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿', true], 
+//['593968585383'], DEJEN ESTO ASÍ POR AHORA POR FAVOR
+  ['85260779999'], //bot
+  ['18134037792'], 
+  ['56977774738'],
+  ['18134037797']
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = ['50495745934'] 
-global.prems = ['595986172767', '5493704555464'], 
-  
+global.prems = ['595986172767', '5493704555464'],  
+   
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫
+//Agrega el Idioma que quieres que tenga The-LoliBot-MD
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de The-LoliBot-MD, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -60,9 +63,13 @@ global.APIs = { // API Prefix.
   neoxr: 'https://neoxr-api.herokuapp.com',
   ana: 'https://anabotofc.herokuapp.com/',
   kanx: 'https://kannxapi.herokuapp.com/',
+  nekobot: 'https://nekobot.xyz/api/',
+  purrbot: 'https://purrbot.site/api/',
   dhnjing: 'https://dhnjing.xyz',
   'https://violetics.pw': 'beta'
 },
+  
+global.Key360 = '964f-0c75-7afc'
   
 global.APIKeys = { // APIKey Here
   //⊱ ━━━━━.⋅ 'https://website': 'apikey' ⋅.━━━━ ⊰
@@ -89,31 +96,17 @@ global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
-//⊱ ━━━━━.⋅ KEY ⋅.━━━━ ⊰
-
-global.Key360 = ['964f-0c75-7afc'] //keys ephoto360
-//global.beta = ['https://violetics.pw'] //keys ephoto360
-
-global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = 'Toma tu sticker'
-global.author = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
-
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
+global.author = 'The LoliBot-MD'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = '1.4.0 (Navidad) 🎄'
-global.version = vs
+global.vs = '1.4.5'
+global.vsJB = '2.0'
 
-global.lb = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.lb = '𝙏𝙝𝙚 𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿'
 global.lolibot = lb
 
 global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
@@ -129,14 +122,20 @@ global.nna = 'https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o'
 global.nnagrupo = nna //Actualización, información sobre el bot
 global.nna2 = 'JESaesjOEcB6wnGX0QYT9o'
 
-global.nn = 'https://chat.whatsapp.com/Ei87TDT7fsI3Q3p5MnM9sW'
+global.nn = 'https://chat.whatsapp.com/BaHPUdegBxB4eurlAbhOT8'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/L4UWejhXNrDCVTq3RrBRMM'
+global.nnn = 'https://chat.whatsapp.com/IIteN3dd6rG87b2liETl2o'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnttt = 'https://chat.whatsapp.com/DNJ4Ppm5ysn3fhjGflrr0J'
-global.nnntttgrupo = nnnttt //Grupo ayuda sobre el bot
+global.nnnt = 'https://chat.whatsapp.com/CcJKHrxGBWAAH3PiBL07JS' //Grupo del Colaboracion
+
+global.nnntt = 'https://chat.whatsapp.com/ImKvcl3Pstb8IMZk02v692' //Grupo COL 2 
+
+global.nnnttt = 'https://chat.whatsapp.com/DsFPvTLFDQaBroutCnD2DO' //enlace lolibot
+
+global.nnntttt = 'https://chat.whatsapp.com/KzHWDoG6he3GrXIfssvc7t'
+global.nnnttttgrupo = nnntttt //Grupo ayuda sobre el bot
 
 global.asistencia = 'Wa.me/5492266466080' //Dudas? escríbeme...
 
@@ -166,11 +165,11 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *𝙀𝙭𝙞𝙩𝙤* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//𝙀𝙅𝙀𝙈𝙋𝙇𝙊
+//𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
 global.wm = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
 global.igfg = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
@@ -186,11 +185,25 @@ global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.pre
 
 //━━━━━━━━━━━━━━lolkeys━━━━━━━━━
 
-global.lolkeys = ['2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
-//global.lolkeysapi = lolkeys[Math.floor(lolkeys.length * Math.random())]
-global.lolkeysapi = ['85faf717d0545d14074659ad']
+global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
+// 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
+global.lolkeysapi = ['BrunoSobrino']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+
+//⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
+
+global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
+global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
+global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
@@ -214,9 +227,14 @@ global.img13 = 'https://i.imgur.com/qevNnBU.jpeg'
 global.img14 = 'https://i.imgur.com/c1xXpPX.jpeg'
 global.img15 = 'https://i.imgur.com/5cofHE5.jpeg'
 
-global.redesMenu = [nna, nn, nnn, nnnttt, md, ig, lb, yt]
-global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15]
+global.img16 = 'https://i.imgur.com/11MRjo4.jpeg' //+18
+
+global.img17 = 'https://i.imgur.com/JpYfcH0.jpeg'
+
+global.redesMenu = [nna, nna2, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, ig, lb, yt]
+global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img16]
 global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
+global.gataImg = [imagen1, imagen2, imagen3]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
