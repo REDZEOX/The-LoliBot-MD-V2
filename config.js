@@ -103,7 +103,7 @@ global.author = 'The LoliBot-MD'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = '1.4.5'
+global.vs = 'V2 (1.4.5)'
 global.vsJB = '2.0'
 
 global.lb = '𝙏𝙝𝙚 𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿'
