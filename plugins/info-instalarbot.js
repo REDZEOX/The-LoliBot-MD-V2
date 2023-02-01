@@ -52,6 +52,24 @@ ${md}
 ───────•••───────
 
 📌 *PASO PARA INSTALAR EL BOT EL TERMUX*
+📌 *OPCION: 1 GITHUB*
+
+🔸 termux-setup-storage
+🔸 apt update 
+🔸 pkg upgrade 
+🔸 pkg install git -y
+🔸 pkg install nodejs -y
+🔸 pkg install ffmpeg -y
+🔸 pkg install imagemagick -y
+🔸 pkg install yarn
+🔸 git clone https://github.com/elrebelde21/The-LoliBot-MD-V2
+🔸 cd The-LoliBot-MD-V2 
+🔸 npm install
+🔸 ls
+🔸 npm start
+
+📌 *OPCIÓN: 2 ARCHIVO*
+*https://youtu.be/i1xjB4bmYCc*
 
 🔸 termux-setup-storage
 🔸 apt update 
